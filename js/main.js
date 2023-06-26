@@ -17,7 +17,7 @@ document.addEventListener("keyup", e=>{
   const nextButton = document.querySelector("#nextButton");
   let URL = "https://pokeapi.co/api/v2/pokemon/";
   let offset = 0;
-  let limit = 12;
+  let limit = 9;
   
   // Función para cargar la lista de Pokémon según el offset y el límite
   function cargarListaPokemon() {
