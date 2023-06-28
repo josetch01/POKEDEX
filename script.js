@@ -15,7 +15,7 @@ document.addEventListener("keyup", e=>{
 const listaPokemon = document.querySelector("#listaPokemon");
 let URL = "https://pokeapi.co/api/v2/pokemon/";
 
-for (let i = 1; i <= 120; i++) {
+for (let i = 1; i <= 12; i++) {
     fetch(URL + i)
         .then((response) => response.json())
         .then(data => mostrarPokemon(data))
