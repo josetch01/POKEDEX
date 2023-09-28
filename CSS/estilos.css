@@ -68,7 +68,7 @@ section{
     background-color: #161616;
 }
 .imagensection{
-    width: 1519px;
+    width: 100%;
     height: 700px;
     overflow: hidden;
     display: flex;
@@ -86,13 +86,13 @@ section{
     align-items: center;
 }
 .slider-image{
-    width: 1519px; /* Ancho deseado */
+    width: 1510px; /* Ancho deseado */
     height: 684px; /* Altura deseada */
     object-fit: cover;
     object-position: center;
 }
 .slider-image2{
-    width: 1519px; /* Ancho deseado */
+    width: 1510px; /* Ancho deseado */
     height: 700px; /* Altura deseada */
     object-fit: cover;
     object-position: bottom;
