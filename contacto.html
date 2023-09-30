@@ -18,11 +18,13 @@
         <img class="logo" src="./Recursos/logo.png" alt="">
         <nav class="navmenu">
             <a class="menutext" href="./index.html">Inicio</a>
+            <a class="menutext" href="#nosotros">Nosotros</a>
+            <a class="menutext" href="#staff">Staff</a>
             <a class="menutext" href="./servicio.html">Servicios</a>
             <a class="menutext" href="./contacto.html">Contáctanos</a>
         </nav>
         <a class="iconoheader"><i class="fa-solid fa-bars"></i></a>
-</header>
+    </header>
 <section>
         <input id="places-search" type="text" placeholder="Buscar lugares">
         <div id="map"></div>
@@ -57,7 +59,7 @@
                     <textarea name="descripcion" id="descripcion" cols="30" rows="3" placeholder="Escriba su consulta"></textarea>
                 </div>
                 <div class="botones">
-                    <a href="https://api.whatsapp.com/send/?phone=931411648&text&type=phone_number&app_absent=0">WhatsApp</a>
+                    <a href="https://api.whatsapp.com/send/?phone=931411648&text&type=phone_number&app_absent=0">WhatsApp<i class="fa-brands fa-whatsapp what"></i></a>
                     <button class="boton" type="submit" value="Enviar">Enviar</button>
                 </div>
                 </form>
@@ -114,5 +116,13 @@
 </footer>
 <script src="./JS/contacto.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACdAUR6_xyp-op_EJP-KcUkbkyyAxHSYA&libraries=places&callback=initMap"></script>
+<script>
+    const menuhamburguer= document.querySelector(".iconoheader")
+    const navlink= document.querySelector(".navmenu")
+
+    menuhamburguer.addEventListener('click',()=>{
+        navlink.classList.toggle('mobile-menu')
+    })
+</script>
 </body>
 </html>
