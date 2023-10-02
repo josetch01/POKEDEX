@@ -84,14 +84,14 @@
 
   	  <div class="card">
   	  	  <div class="card-header">
-  	  	  	 <h3>Asesoría en Procesos Materia de Derecho de Familia </h3>
+  	  	  	 <h3 class="exc">Asesoría en Procesos Materia de Derecho de Familia </h3>
   	  	  	 <span class="fa fa-plus"></span>
   	  	  </div>
   	  	  <div class="card-body">
   	  	  	  <p>“Entendemos que cada situación familiar es única, y por eso nos esforzamos por ofrecer soluciones legales personalizadas que se adapten a las necesidades y circunstancias individuales de nuestros clientes. Nuestro enfoque va más allá de la simple resolución de problemas legales; buscamos lograr soluciones justas y equitativas que preserven sólidos lazos familiares.”</p>
                     <hr>
                     <div class="columnas">
-                        <div class="columna">
+                        <div class="columna1">
                             <ul>
                                 <li>Interposición de la demanda.</li>
                                 <li>Escritos adicionales.</li>
@@ -103,7 +103,7 @@
 
                             </ul>
                         </div>
-                        <div class="columna">
+                        <div class="columna2">
                             <ul>
                                <li>Asignación anticipada.</li>
                                <li>Liquidación de pensión en asignación anticipada.</li>
@@ -127,7 +127,7 @@
   	  	  	  <p>“Reconocemos la importancia fundamental de la justicia y la presunción de inocencia, y nos comprometemos a brindar representación legal sólida, ética y enérgica a cada cliente que enfrenta cargos penales, nuestro objetivo principal es garantizar que nuestros clientes reciban un juicio justo y equitativo. Nos esforzamos por comprender completamente cada caso, investigar a fondo las circunstancias y presentar una defensa sólida que resalte los hechos y las leyes pertinentes.”</p>
                     <hr>
                     <div class="columnas">
-                        <div class="columna">
+                        <div class="columna1">
                             <ul>
                                 <li>Violencia familiar.</li>
                                 <li>Disponibilidad las 24 horas para acompañamiento legal.</li>
@@ -138,7 +138,7 @@
 
                             </ul>
                         </div>
-                        <div class="columna">
+                        <div class="columna2">
                             <ul>
                                <li>Peligro común (Conducción en estado de ebriedad).</li>
                                <li>Medidas de protección.</li>
@@ -161,7 +161,7 @@
                   <p>“Proporcionar una guía confiable y sólida en asuntos administrativos, promoviendo el cumplimiento normativo, la transparencia y la eficacia en la gestión, mientras defendemos los intereses y derechos legales de nuestros clientes en todas sus interacciones con la administración pública. A través de nuestra experiencia y conocimientos, buscamos simplificar los procesos administrativos y brindar soluciones eficientes a los desafíos que enfrentan nuestros clientes en sus relaciones con las autoridades y entidades gubernamentales.”</p>
                   <hr>
                   <div class="columnas">
-                      <div class="columna">
+                      <div class="columna1">
                           <ul>
                               <li>Jubilaciones.</li>
                               <li>Procesos disciplinarios PNP.</li>
@@ -169,7 +169,7 @@
 
                           </ul>
                       </div>
-                      <div class="columna">
+                      <div class="columna2">
                           <ul>
                              <li>Pensiones (AFP y ONP).</li>
                              <li>Proceso administrativo sancionador.</li>
@@ -188,7 +188,7 @@
               <p>“Brindar un servicio de asesoramiento integral y especializado en materia registral, con el propósito de guiar a nuestros clientes a través de los complejos procesos de registro y documentación legal. Nos dedicamos a ser un recurso confiable para individuos y organizaciones, ayudándoles a comprender y cumplir con los requisitos legales necesarios para inscribir sus activos, propiedades y derechos en los registros correspondientes.”</p>
               <hr>
               <div class="columnas">
-                  <div class="columna">
+                  <div class="columna1">
                       <ul>
                           <li>Contrato de compra y venta.</li>
                           <li>Independizaciones.</li>
@@ -196,7 +196,7 @@
 
                       </ul>
                   </div>
-                  <div class="columna">
+                  <div class="columna2">
                       <ul>
                          <li>Minuta.</li>
                          <li>Saneamiento físico y legal.</li>
@@ -215,7 +215,7 @@
           <p>“Brindamos un asesoramiento laboral integral y especializado a empleadores y empleados, con el objetivo de fomentar relaciones laborales justas, equitativas y cumplir con las regulaciones legales vigentes. Nos comprometemos a ser un socio estratégico para nuestros clientes, ofreciendo soluciones efectivas para resolver conflictos laborales, promover el cumplimiento normativo y mejorar el ambiente laboral.”</p>
           <hr>
           <div class="columnas">
-              <div class="columna">
+              <div class="columna1">
                   <ul>
                       <li>Tramites de licencia de funcionamiento de certificado de defensa civil.</li>
                       <li>Enfermedad laboral.</li>
@@ -224,7 +224,7 @@
 
                   </ul>
               </div>
-              <div class="columna">
+              <div class="columna2">
                   <ul>
                      <li>Despido.</li>
                      <li>Renuncia forzada.</li>
@@ -317,5 +317,13 @@
 
 </script>
 
+<script>
+    const menuhamburguer= document.querySelector(".iconoheader")
+    const navlink= document.querySelector(".navmenu")
+
+    menuhamburguer.addEventListener('click',()=>{
+        navlink.classList.toggle('mobile-menu')
+    })
+</script>
 </body>
 </html>
