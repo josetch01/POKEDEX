@@ -37,24 +37,27 @@
                 <div class="inputs">
                     <p>Nombres Completos</p>
                     <div class="nombres">
-                        <input type="text" name="nombres" id="nombres" placeholder="Ingresar Nombres">
-                        <input type="text" name="apellidos" id="apellidos" placeholder="Ingresar Apellidos">
+                        <input type="text" name="nombres" id="nombres" placeholder="Ingresar Nombres" required>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Ingresar Apellidos" required>
                     </div>
                     <p>Correo electrónico</p>
-                    <input type="text" name="gmail" id="gmail" placeholder="Ingresar Correo Electrónico">
+                    <input type="text" name="gmail" id="gmail" placeholder="Ingresar Correo Electrónico" required>
                     <p>Dirección</p>
                     <input type="text" name="direccion" id="direccion" placeholder="Ingresar su dirección">
                     <p>Teléfono</p>
-                    <input type="number" name="telefono" id="telefono" maxlength="9" placeholder="Ingresar su número de celular" >
+                    <input type="number" name="telefono" id="telefono" maxlength="9" placeholder="Ingresar su número de celular" required>
                     <p>Área</p>
-                    <select name="area">
-                        <option selected disabled>Seleccione una área</option>
-                        <option value="Area Legal">Area Legal</option>
-                        <option value="Area Jurídica" >Area Jurídica</option>
+                    <select name="area" required>
+                        <option selected disabled >Seleccione una área </option> 
+                        <option value="Area Jurídica a empresas">Area Jurídica a Empresas</option>
+                        <option value="Area Derecho de familia" >Area Derecho de Familia</option>
                         <option value="Area Penal">Area Penal</option>
+                        <option value="Area Administrativa">Area Administrativa</option>
+                        <option value="Area Registral">Area Registral</option>
+                        <option value="Area Laboral">Area Laboral</option>
                       </select>
                     <p>Describe tu pregunta o consulta</p>
-                    <textarea name="descripcion" id="descripcion" cols="30" rows="3" placeholder="Escriba su consulta"></textarea>
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="3" placeholder="Escriba su consulta" required></textarea>
                 </div>
                 <div class="botones">
                     <a href="https://api.whatsapp.com/send/?phone=931411648&text&type=phone_number&app_absent=0">WhatsApp<i class="fa-brands fa-whatsapp what whatsappp"></i></a>
@@ -80,11 +83,11 @@
                         <a class="listafooter" href="#nosotros">Nosotros</a>
                         <a class="listafooter" href="#staff">Staff</a>
                         <a class="listafooter">Servicios</a>
-                        <a class="listafooter">Contactanos</a>
+                        <a class="listafooter">Contáctanos</a>
                     </div>
                 </div>
                 <div class="col-md-4 encuentranos">
-                    <p class="estudiofooter">Encuentranos:</p>
+                    <p class="estudiofooter">Encuéntranos:</p>
                     <div class="icons">
                     <a href="https://www.facebook.com/grupoasesoficial.pe?mibextid=ZbWKwL" class="fa fa-facebook face"></a>
                     <a href="https://instagram.com/goases.pe?igshid=MzRlODBiNWFlZA==" class="fa fa-instagram insta"></a>
@@ -110,7 +113,7 @@
     </div>
     <div class="subfooter">
         <p>© 2023 Chiclayo - Perú</p>
-        <p class="linksf"> <a href="">Terminos y Condiciones </a>| <a href="">Políticas de privacidad</a> | <a href="">Contáctanos</a></p>
+        <p class="linksf"> <a href="">Términos y Condiciones </a>| <a href="">Políticas de privacidad</a> | <a href="">Contáctanos</a></p>
 
     </div>
 </footer>
