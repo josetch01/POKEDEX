@@ -546,15 +546,16 @@ line-height: 24px; /* 171.429% */
     }
 
     .inputs p{
-        margin-top: 0.8rem;
+        margin-top: 1rem;
     }
 
     .inputs{
-        width: 308px;
+        width: 310px;
     }
 
     .inputs input{
-        width: 308px;
+        width: 290px;
+        margin: 0;
     }
 
     .boton{
