@@ -100,7 +100,12 @@ section{
     object-fit: cover;
     object-position: top;
 }
-
+.slider-image3{
+    width: 1510px; /* Ancho deseado */
+    height: 700px; /* Altura deseada */
+    object-fit: cover;
+    object-position: 20% 50%;
+}
 .texto p{
     color: white;
 }
@@ -803,6 +808,10 @@ line-height: 24px; /* 171.429% */
     .slider-image2{
         width: 100%;
     }
+    .slider-image3{
+        width: 100%;
+        object-position: center;
+    }
     .slider-text1{
         left: 12%;
         width: 30%;
@@ -967,6 +976,9 @@ line-height: 24px; /* 171.429% */
         height: 20%;
     }    
     .slider-image2{
+        height: 20%;
+    }
+    .slider-image3{
         height: 20%;
     }
 }
