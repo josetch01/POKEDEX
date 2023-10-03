@@ -89,14 +89,15 @@ section{
     width: 1510px; /* Ancho deseado */
     height: 684px; /* Altura deseada */
     object-fit: cover;
-    object-position: center;
+    object-position: 20% 40%;
 }
 .slider-image2{
     width: 1510px; /* Ancho deseado */
     height: 700px; /* Altura deseada */
     object-fit: cover;
-    object-position: bottom;
+    object-position: top;
 }
+
 .texto p{
     color: white;
 }

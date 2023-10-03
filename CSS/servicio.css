@@ -100,7 +100,7 @@ hr{
 	margin:0;
 	padding:15px 20px;
     border-radius: 10px;
-
+    font-size: 18px;
 }
 .accordian .card .card-header {
 	position: relative;
@@ -137,6 +137,13 @@ hr{
     text-align: center;
     width:1150px;
     margin: auto;
+}
+
+.textoservicios{
+    text-align: center;
+    width: 1100px;
+    color: white;
+    
 }
 .columnas{
     display: flex;
@@ -478,6 +485,7 @@ line-height: 24px; /* 171.429% */
     }
     .imagen img{
         width: 100%;
+        height: 100%;
         object-fit: cover;
         object-position: center;
     }  
@@ -569,6 +577,16 @@ line-height: 24px; /* 171.429% */
         align-items: center;
         margin-left: 0;
 
+    }
+    .textoservicios{
+        margin-top: 20px;
+        text-align: justify;
+        width: 80%;
+        color: white;
+        font-size: 10px;
+    }
+    svg{
+        width: 90%;
     }
     .icons{
         width: 100%;
