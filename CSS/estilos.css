@@ -177,7 +177,11 @@ section{
     font-style: normal;
     font-weight: bold;
     line-height: 30px;
-    color: #ad8a1f;
+    /*color: #ad8a1f;*/
+    background: #fff;
+    background: linear-gradient(100deg, #ef9d05, #fed063);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     
 }
 .txt{
@@ -358,7 +362,8 @@ section{
 .beneficio p{
     width: 300px;
     margin-top: 10px;
-    color: rgb(196, 190, 190);
+    color: rgb(220, 181, 91);
+    text-shadow: 0 2px 25px rgb(220, 181, 91);
 }
 .staff{
     width: 100%;
