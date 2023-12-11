@@ -4,7 +4,7 @@
     
 }
 body{
-    font-family: "Montserrat";
+    font-family: Helvetica, Arial, 'sans-serif';
 }
 header{
     position: sticky;
@@ -37,10 +37,8 @@ nav{
     margin-right: 35px;
 }
 nav a{
-    padding: 20px;
+    padding: 18px;
     color: var(--text-gray-900, #ffffff);
-    font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
-    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -49,9 +47,10 @@ nav a{
 }
 nav a:hover{
     color: #e2c15c;
-    background-color: #0d2033;
     font-weight: bold;
     text-decoration: none;
+    border-right: .5px solid #e2c15c;
+    border-bottom: 2px solid #e2c15c;
 }
 .logo{
     margin-top: 10px;
@@ -250,8 +249,7 @@ footer{
 
 .estudiofooter{
     color: var(--default-white, #FFF);
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: Inter;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -267,8 +265,7 @@ footer{
 }
 .listafooter{
     color: var(--text-gray-300, #D9DBE1);
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: Inter;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -278,8 +275,7 @@ footer{
 }
 .telefono{
     color: white;
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: Inter;
+
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -375,8 +371,7 @@ footer{
 .direccion{
     color: #FFF;
     text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: Inter;
+
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -392,9 +387,7 @@ footer{
 .comunicatefooter{
     color: var(--default-white, #FFF);
     text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-    /* Heading / H6 */
-    font-family: Inter;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -404,8 +397,7 @@ footer{
     font-size: 15px;
     color: #FFF;
     text-align: center;
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: Inter;
+
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -442,9 +434,7 @@ footer{
 }
 .subfooter p{
     color: var(--text-gray-300, #D9DBE1);
-font-feature-settings: 'salt' on, 'liga' off;
-/* Body / Body 2 */
-font-family: Inter;
+
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
